@@ -27,5 +27,7 @@
     .box2 {
         border-radius: 50%;
     }
-    
+    .foot-4 input {
+    padding: 5px 5px;
+}
 }
