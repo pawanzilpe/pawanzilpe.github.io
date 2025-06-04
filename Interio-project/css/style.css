@@ -425,3 +425,6 @@ footer hr{
 footer>p{
   text-align: center;
 }
+.foot-4 input {
+    padding: 5px 1px;
+}
