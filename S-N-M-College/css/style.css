@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #232425;
+    padding: 10px 20px;
+   
+}
+
+.navbar-collapse{
+    margin-left: 450px;
+    gap: 80px;
+     color: hsl(0, 13%, 91%);
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+.nav-item a{
+   align-items: center;
+    color: hsl(0, 13%, 91%);
+    font-weight: 900;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 80px;
+  position: fixed;
+  background-color: rgb(43, 143, 224);
+  width: 100%;
+}
+.navbar-1 h1 {
+  color: orangered;
+  font-weight: 900;
+  font-size: 36px;
+}
+.navbar-2 a {
+  text-decoration: none;
+  color: rgb(255, 253, 253);
+  margin-left:20px;
+  display: inline;
+  font-weight: 600;
+
+}
+.navbar-2 a:hover {
+  color: blue;
+}
+.navbar-3 a {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-right: 140px;
+}
+
+.contact{
+    
+    margin-right: 60px;
+}
+
+
+/* slider section  */
+.carousel-control-prev, .carousel-control-next {
+   
+    display: none;
+}
+.carousel-text{
+    top: 40%;
+    left: 80px;
+}
+.carousel-item img{
+    height: 100%;
+}
+
+  /* Highlights Section  */
+
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: #e9f0f5;
+}
+
+.highlight {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.highlight h3 {
+  color: #0077cc;
+}
