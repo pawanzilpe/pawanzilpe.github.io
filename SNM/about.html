@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+         <link rel="stylesheet" href="about.html">
+     <link rel="stylesheet" href="contact.html">
+     <link rel="stylesheet" href="course.html">
+     <link rel="stylesheet" href="index.html">
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[#F8FAFC] p-0 m-0 font-[Montserrat]">
+    <!-- Mobile Menu Button -->
+    <div class="lg:hidden  bg-[#1A237E] p-6 mb-2 flex justify-between items-center">
+        <div class="font-bold bg-gradient-to-r from-green-500 via-orange-500 to-white bg-clip-text text-transparent text-sm">
+            शानुबाई नाईक महाविद्यालय,<br> ढाणकी S.N.M COLLAGE
+        </div>
+        <button id="mobile-menu-btn" class="text-white text-2xl ">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-[#1A237E] text-[#fff] font-bold flex flex-col lg:flex-row justify-between items-center p-2 lg:pl-20 lg:pr-20 hidden lg:flex">
+        <div class="font-bold bg-gradient-to-r from-green-500 via-orange-500 to-white bg-clip-text text-transparent text-center lg:text-left mb-4 lg:mb-0">
+            शानुबाई नाईक महाविद्यालय,<br> ढाणकी S.N.M COLLAGE कला | वाणिज्य | विज्ञान
+        </div>
+        <div class="mb-4 lg:mb-0">
+            <ul class="flex flex-col lg:flex-row gap-4 lg:gap-10 text-center">
+                <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md hover:w-16 text-center"><a href="index.html" target="_self">Home</a></li>
+                <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md hover:w-24 text-center"><a href="about.html"  target="_self">About Us</a></li>
+                <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md hover:w-16 text-center"><a href="cousre.html"  target="_self">Course</a></li>
+                <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md hover:w-24 text-center"><a href="contact.html"  target="_self">Contact us</a></li>
+            </ul>
+        </div>
+        <div>
+            <button class="border p-1 rounded-md bg-white text-[#1A237E] hover:bg-[#1A237E] hover:text-white hover:border-2 text-sm lg:text-base">
+                Ask For Enquiries <i class="fa-solid fa-arrow-right fa-fade fa-lg"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="lg:hidden bg-[#1A237E] text-white hidden">
+        <ul class="flex flex-col gap-4 p-4 text-center">
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md">Home</li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md">About Us</li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md">Course</li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md">Contact us</li>
+            <li class="mt-4">
+                <button class="border p-2 rounded-md bg-white text-[#1A237E] hover:bg-[#1A237E] hover:text-white hover:border-2 w-full">
+                    Ask For Enquiries <i class="fa-solid fa-arrow-right fa-fade fa-lg"></i>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <br class="hidden lg:block">
+    
+    <!-- Hero Section -->
+    <div style="background-image: url(/src/clg.jpg);" class="w-[100%] bg-no-repeat bg-center bg-cover h-[40vh] md:h-[60vh] lg:h-[90vh] mb-10 lg:mb-20 -mt-6">
+    </div>
+
+    <!-- About Section -->
+    <div class="flex flex-col lg:flex-row w-[95%] lg:w-[90%] bg-white mb-8 h-max mx-auto p-5 lg:p-10 rounded shadow-black">
+        <div class="bg-rose-400 w-full lg:w-[50%] mb-4 lg:mb-0">
+            <img class="w-[100%] h-48 lg:h-84 object-cover" src="src/clg.jpg" alt="">
+        </div>
+        <div class="w-full lg:w-[50%] p-0 lg:p-5 lg:pl-10">
+            <h1 class="text-2xl lg:text-3xl font-bold mb-5">Introduction</h1>
+            <p class="text-sm lg:text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis esse aspernatur deleniti amet? Non aut sapiente natus mollitia, ea ut recusandae consectetur nam ducimus nihil nostrum maiores, minus fugit sint obcaecati quibusdam, provident voluptas earum eaque accusantium perspiciatis libero eveniet? Commodi adipisci quidem molestiae minima facilis beatae illum sequi maxime? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, praesentium.</p>
+        </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="flex flex-col lg:flex-row w-[95%] lg:w-[90%] bg-white mb-8 h-max mx-auto p-5 lg:p-10 rounded shadow-black">
+        <div class="w-full lg:w-[50%] p-0 lg:p-5 lg:pl-10 order-2 lg:order-1">
+            <h1 class="text-2xl lg:text-3xl font-bold mb-5">Functional Organization</h1>
+            <p class="text-sm lg:text-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis esse aspernatur deleniti amet? Non aut sapiente natus mollitia, ea ut recusandae consectetur nam ducimus nihil nostrum maiores, minus fugit sint obcaecati quibusdam, provident voluptas earum eaque accusantium perspiciatis libero eveniet? Commodi adipisci quidem molestiae minima facilis beatae illum sequi maxime? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, praesentium.</p>
+        </div>
+        <div class="bg-rose-400 w-full lg:w-[50%] mb-4 lg:mb-0 order-1 lg:order-2">
+            <img class="w-[100%] h-48 lg:h-84 object-cover" src="src/clg.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="p-4 lg:p-8">
+        <h1 class="text-2xl lg:text-3xl font-semibold mb-5">History of Our College</h1>
+        <img class="w-full h-32 md:h-40 lg:h-50 object-cover rounded" src="src/clg.jpg" alt="">
+        <div class="mt-4">
+            <p class="text-sm lg:text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, deleniti? Ipsam, quae! Voluptates nemo, corrupti eius a quisquam voluptatum totam ullam illo ducimus iusto repellendus molestiae velit. Repellendus aut id, pariatur ducimus nisi modi vel consectetur in enim maxime dolor minus architecto adipisci voluptatibus blanditiis velit veritatis ipsam unde, reiciendis, facilis possimus aliquam quo est? Cupiditate doloremque voluptate, provident ipsam fugiat architecto, dolorum odit necessitatibus consequatur atque vitae quod, hic quia cum magnam odio inventore impedit ad repellendus! Animi, officiis ab enim amet rem blanditiis neque ipsa? Eligendi odit, officiis hic facilis eum, architecto magni aut modi voluptatem quam unde!</p>
+        </div>
+    </div>
+
+    <!-- Faculty Section -->
+    <h1 class="mt-5 text-2xl lg:text-3xl font-semibold m-5 border-b w-max ml-4 lg:ml-18">Faculty & Administration</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-5">
+        <!-- Card 1 -->
+        <div class="card bg-base-100 shadow-md shadow-black rounded-md flex-col text-center justify-center items-center">
+            <figure>
+                <h1 class="font-semibold p-1">PRINCIPLE</h1>
+                <img class="rounded w-full h-48 object-cover p-3" src="/src/sirimg.jpg" alt="ACTIVITIES" />
+            </figure>
+            <div class="card-body p-3">
+                <h2 class="font-semibold">[Name]</h2>
+                <h3 class="text-sm">Principal,S.H.M College</h3>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reprehenderit.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card bg-base-100 shadow-md shadow-black rounded-md flex-col text-center justify-center items-center">
+            <figure>
+                <h1 class="font-semibold p-1">Vice Principals</h1>
+                <img class="rounded w-full h-48 object-cover p-3" src="/src/sirimg.jpg" alt="ACTIVITIES" />
+            </figure>
+            <div class="card-body p-3">
+                <h2 class="font-semibold">[Name]</h2>
+                <h3 class="text-sm">Principal,S.H.M College</h3>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reprehenderit.</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card bg-base-100 shadow-md shadow-black rounded-md flex-col text-center justify-center items-center">
+            <figure>
+                <h1 class="font-semibold p-1">Deans</h1>
+                <img class="rounded w-full h-48 object-cover p-3" src="/src/sirimg.jpg" alt="ACTIVITIES" />
+            </figure>
+            <div class="card-body p-3">
+                <h2 class="font-semibold">[Name]</h2>
+                <h3 class="text-sm">Principal,S.H.M College</h3>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reprehenderit.</p>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card bg-base-100 shadow-md shadow-black rounded-md flex-col text-center justify-center items-center">
+            <figure>
+                <h1 class="font-semibold p-1">Heads of Departments</h1>
+                <img class="rounded w-full h-48 object-cover p-3" src="/src/sirimg.jpg" alt="ACTIVITIES" />
+            </figure>
+            <div class="card-body p-3">
+                <h2 class="font-semibold">[Name]</h2>
+                <h3 class="text-sm">Principal,S.H.M College</h3>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reprehenderit.</p>
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card bg-base-100 shadow-md shadow-black rounded-md flex-col text-center justify-center items-center">
+            <figure>
+                <h1 class="font-semibold p-1">Coordinators</h1>
+                <img class="rounded w-full h-48 object-cover p-3" src="/src/sirimg.jpg" alt="ACTIVITIES" />
+            </figure>
+            <div class="card-body p-3">
+                <h2 class="font-semibold">[Name]</h2>
+                <h3 class="text-sm">Principal,S.H.M College</h3>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reprehenderit.</p>
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="card bg-base-100 shadow-md shadow-black rounded-md flex-col text-center justify-center items-center">
+            <figure>
+                <h1 class="font-semibold p-1">Management Board</h1>
+                <img class="rounded w-full h-48 object-cover p-3" src="/src/sirimg.jpg" alt="ACTIVITIES" />
+            </figure>
+            <div class="card-body p-3">
+                <h2 class="font-semibold">[Name]</h2>
+                <h3 class="text-sm">Principal,S.H.M College</h3>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reprehenderit.</p>
+            </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="card bg-base-100 shadow-md shadow-black rounded-md flex-col text-center justify-center items-center">
+            <figure>
+                <h1 class="font-semibold p-1">Heads of Departments</h1>
+                <img class="rounded w-full h-48 object-cover p-3" src="/src/sirimg.jpg" alt="ACTIVITIES" />
+            </figure>
+            <div class="card-body p-3">
+                <h2 class="font-semibold">[Name]</h2>
+                <h3 class="text-sm">Principal,S.H.M College</h3>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reprehenderit.</p>
+            </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="card bg-base-100 shadow-md shadow-black rounded-md flex-col text-center justify-center items-center">
+            <figure>
+                <h1 class="font-semibold p-1">Heads of Departments</h1>
+                <img class="rounded w-full h-48 object-cover p-3" src="/src/sirimg.jpg" alt="ACTIVITIES" />
+            </figure>
+            <div class="card-body p-3">
+                <h2 class="font-semibold">[Name]</h2>
+                <h3 class="text-sm">Principal,S.H.M College</h3>
+                <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, reprehenderit.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Accreditation Section -->
+    <div class="px-4 lg:px-0">
+        <h1 class="text-xl lg:text-2xl font-medium ml-4 lg:ml-15 mt-5">ACCREDITATION AND RECOGNITION</h1>
+    </div>
+
+    <div class="mb-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 bg-black/5 p-5">
+        <div class="bg-white shadow-md shadow-black rounded-md h-40 flex justify-center items-center text-center">
+            <div>
+                <h1 class="font-semibold">NAAC</h1>
+                <p class="text-gray-600">Accredited with</p>
+                <p class="text-green-600 font-bold">A+ Grade</p>
+            </div>
+        </div>
+        <div class="bg-white shadow-md shadow-black rounded-md h-40 p-2 flex justify-center items-center text-center">
+            <div>
+                <h1 class="font-semibold">AICTE</h1>
+                <p class="text-gray-600 text-sm">"Approved by AICTE, New Delhi"</p>
+                <p class="text-green-600 font-bold text-sm">"Recognized by UGC under Section 2(f)"</p>
+            </div>
+        </div>
+        <div class="bg-white shadow-md shadow-black rounded-md h-40 flex justify-center items-center text-center">
+            <div>
+                <h1 class="font-semibold">University Affiliation</h1>
+                <p class="text-gray-600">Affiliated to</p>
+                <p class="text-green-600 font-bold text-sm">Yashwantrao Chavan Maharashtra Open University (YCMOU)</p>
+            </div>
+        </div>
+        <div class="bg-white shadow-md shadow-black rounded-md h-40 flex justify-center items-center text-center">
+            <div>
+                <h1 class="font-semibold">Certifications</h1>
+                <p class="text-gray-600">ISO Certification</p>
+                <p class="text-green-600 font-bold">state ranking</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-neutral text-neutral-content p-6 lg:p-10 bg-[#1A237E] text-white">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
+            <div class="font-bold bg-gradient-to-r from-green-500 via-orange-500 to-white bg-clip-text text-transparent text-center lg:text-left">
+                शानुबाई नाईक महाविद्यालय,<br> ढाणकी S.N.M COLLAGE कला | वाणिज्य | विज्ञान
+            </div>
+            
+            <div>
+                <h1 class="text-xl lg:text-2xl font-semibold mb-2">Contact</h1>
+                <ul class="space-y-2">
+                    <li><i class="fa-solid fa-location-dot fa-bounce pr-2"></i><a href="">Shanubai Naik Mahila <br>Mahavidyalaya Dhanki</a></li>
+                    <li><a href=""><i class="fa-solid fa-phone fa-shake pr-2"></i>91+xxxxxxxxx</a></li>
+                    <li><a href=""><i class="fa-solid fa-envelope fa-beat-fade pr-2"></i> Shanubai@gmail.comNaik</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h1 class="text-xl lg:text-2xl font-semibold mb-2">Quick Links</h1>
+                <ul class="space-y-2">
+                    <li><a class="link link-hover">Home</a></li>
+                    <li><a class="link link-hover">About Us</a></li>
+                    <li><a class="link link-hover">Course</a></li>
+                    <li><a class="link link-hover">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h1 class="text-xl lg:text-2xl font-semibold mb-2">Follow Us</h1>
+                <ul class="space-y-2">
+                    <li><a href=""><i class="fa-brands fa-instagram fa-beat pr-2"></i>Instagram</a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook fa-flip pr-2"></i>Facebook</a></li>
+                    <li><a href=""><i class="fa-brands fa-whatsapp fa-beat-fade pr-2"></i>Whatsapp</a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin fa-fade pr-2"></i>LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+            const icon = mobileMenuBtn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+    </script>
+</body>
+</html>
