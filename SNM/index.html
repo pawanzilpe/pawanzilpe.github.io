@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+     <link rel="stylesheet" href="about.html">
+     <link rel="stylesheet" href="contact.html">
+     <link rel="stylesheet" href="course.html">
+     <link rel="stylesheet" href="index.html">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[#F8FAFC] font-[Montserrat]">
+    <nav class="bg-[#1A237E] text-[#fff] font-bold flex flex-col md:flex-row justify-between items-center p-2 md:pl-20 md:pr-20 px-4">
+        <div class="font-bold bg-gradient-to-r from-green-500 via-orange-500 to-white bg-clip-text text-transparent text-center md:text-left mb-4 md:mb-0 text-sm md:text-base">शानुबाई नाईक महाविद्यालय,<br> ढाणकी S.N.M COLLAGE  कला | वाणिज्य | विज्ञान</div>
+        <div class="mb-4 md:mb-0">
+            <ul class="flex flex-col md:flex-row gap-2 md:gap-10 text-center">
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md text-center"><a href="index.html" target="_self">Home</a></li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md text-center"><a href="about.html" target="_self">About Us</a></li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md text-center">
+              <a href="cousre.html" target="_self">Course</a></li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md text-center"><a href="contact.html" target="_self">Contact us</a></li></ul>
+        </div>
+        <div><button class="border p-1 rounded-md bg-white text-[#1A237E] hover:bg-[#1A237E] hover:text-white hover:border-2 text-sm md:text-base">Ask For Enquiries <i class="fa-solid fa-arrow-right fa-fade fa-lg"></i></button></div>
+    </nav> <br>
+    <!-- section main  -->
+
+<!-- Slideshow Section -->
+<section class="relative w-full overflow-hidden bg-white ">
+  <div class="text-center text-xl md:text-2xl font-bold text-purple-800 mb-6 px-4">IMPORTANT NOTICE <i class="fa-solid fa-exclamation fa-bounce fa-lg ML-5"></i></div>
+  <div class="relative w-full h-[50vh] md:h-[70vh]">
+    <div id="slider" class="whitespace-nowrap transition-transform duration-1000 ease-in-out ">
+      <div class="inline-block w-full h-[50vh] md:h-[90vh] text-center  items-center justify-center bg-red-100 text-lg md:text-xl font-semibold text-red-800 px-4">
+        प्रवेश प्रक्रिया सुरू आहे - 2025-2026
+      </div>
+      <div class="inline-block w-full h-[50vh] md:h-[90vh] text-center  items-center justify-center bg-yellow-100 text-lg md:text-xl font-semibold text-yellow-800 px-4">
+        बी.ए., बी.कॉम., बी.एस्सी. कोर्सेससाठी नोंदणी सुरु
+      </div>
+      <div class="inline-block w-full h-[50vh] md:h-[90vh] text-center  items-center justify-center bg-green-100 text-lg md:text-xl font-semibold text-green-800 px-4">
+        ऑनलाईन प्रवेशासाठी संपर्क करा: 9604111286
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  let index = 0;
+  const slider = document.getElementById('slider');
+  const totalSlides = slider.children.length;
+
+  setInterval(() => {
+    index = (index + 1) % totalSlides;
+    slider.style.transform = `translateX(-${index * 100}%)`;
+  }, 3000);
+</script>
+
+<!-- section3 - Icon Grid -->
+<div class="flex flex-wrap justify-center items-center mb-10 mt-10 gap-4 md:gap-8 px-4">
+  <div class="w-24 h-24 md:w-32 md:h-32 flex justify-center items-center rounded-lg m-2 shadow-md shadow-violet-600 bg-violet-500 text-white">
+    <div class="text-center">
+      <h1 class="flex justify-center p-2"><i class="fa-solid fa-building-columns fa-bounce fa-lg md:fa-xl"></i></h1>
+      <h1 class="text-sm md:text-lg font-bold">Academics</h1>
+    </div>
+  </div>
+
+  <div class="w-24 h-24 md:w-32 md:h-32 flex justify-center items-center rounded-lg m-2 shadow-md shadow-orange-600 bg-orange-400 text-white">
+    <div class="text-center">
+      <h1 class="flex justify-center p-2"><i class="fa-solid fa-flask fa-beat fa-lg md:fa-xl"></i></h1>
+      <h1 class="text-sm md:text-lg font-bold">Research</h1>
+    </div>
+  </div>
+
+  <div class="w-24 h-24 md:w-32 md:h-32 flex justify-center items-center rounded-lg m-2 shadow-md shadow-blue-600 bg-blue-500 text-white">
+    <div class="text-center">
+      <h1 class="flex justify-center p-2"><i class="fa-solid fa-newspaper fa-bounce fa-lg md:fa-xl"></i></h1>
+      <h1 class="text-sm md:text-lg font-bold">News</h1>
+    </div>
+  </div>
+      
+  <div class="w-24 h-24 md:w-32 md:h-32 flex justify-center items-center rounded-lg m-2 shadow-md shadow-green-600 bg-green-500 text-white">
+    <div class="text-center">
+      <h1 class="flex justify-center p-2"><i class="fa-solid fa-graduation-cap fa-beat-fade fa-lg md:fa-xl"></i></h1>
+      <h1 class="text-sm md:text-lg font-bold">Placements</h1>
+    </div>
+  </div>
+  
+  <div class="w-24 h-24 md:w-32 md:h-32 flex justify-center items-center rounded-lg m-2 shadow-md shadow-yellow-200 bg-yellow-500 text-white">
+    <div class="text-center">
+      <h1 class="flex justify-center p-2"><i class="fa-solid fa-person-running fa-beat-fade fa-lg md:fa-xl"></i></h1>
+      <h1 class="text-sm md:text-lg font-bold">Activities</h1>
+    </div>
+  </div>
+</div>
+
+<!-- section3 - About Section -->
+<div class="flex justify-center mb-8 px-4"> 
+  <div class="w-full md:w-[90%] min-h-[60vh] md:h-[90vh] bg-white shadow shadow-black/40 p-4 md:p-8 flex flex-col md:flex-row justify-center items-center gap-4 md:gap-18">
+    <div class="bg-gray-400 w-full md:w-[40%] h-[30vh] md:h-[70vh] mb-4 md:mb-0"></div>
+    <div class="font-bold bg-gradient-to-r from-green-500 via-orange-500 to-red-400 bg-clip-text text-transparent w-full md:w-[40%]">
+      <h1 class="text-lg md:text-xl text-center md:text-left">शानुबाई नाईक महाविद्यालय,<br> ढाणकी S.N.M COLLAGE  कला | वाणिज्य | विज्ञान</h1>
+      <p class="text-black mt-5 text-sm md:text-base text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis esse, dignissimos illo aut laborum eligendi reprehenderit officiis sunt nobis, amet impedit ex repudiandae nulla similique architecto ab? Officia accusantium ullam nam necessitatibus quasi ad optio quam distinctio reprehenderit ipsum amet dicta nobis ut voluptatum nesciunt, rerum, ea aspernatur soluta error?</p>
+    </div>
+  </div>
+</div>
+
+<!-- section4 - Activities -->
+<h1 class="pl-4 md:pl-8 text-2xl md:text-3xl font-semibold">OUR ACTIVITIES</h1>
+<button class="bg-blue-500 text-white p-2 font-extrabold rounded-xl ml-4 md:ml-8 mt-5">View All</button>
+<div class="flex flex-col lg:flex-row lg:flex-wrap justify-center m-2 p-3 border-b gap-4"> 
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- section5 - Achievements -->
+<h1 class="pl-4 md:pl-8 text-2xl md:text-3xl font-semibold mt-10">OUR ACHIEVEMENTS</h1>
+<button class="bg-blue-500 text-white p-2 font-extrabold rounded-xl ml-4 md:ml-8 mt-5">View All</button>
+<div class="flex flex-col lg:flex-row lg:flex-wrap justify-center m-2 p-3 border-b gap-4"> 
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<!-- section6 - Faculty -->
+<h1 class="pl-4 md:pl-8 text-2xl md:text-3xl font-semibold mt-10">OUR FACULTY</h1>
+<button class="bg-blue-500 text-white p-2 font-extrabold rounded-xl ml-4 md:ml-8 mt-5 mb-5">View All</button>
+<div class="flex flex-col lg:flex-row lg:flex-wrap justify-center m-2 p-3 border-b mb-10 gap-4"> 
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card bg-base-100 w-full sm:w-80 lg:w-96 shadow-md rounded-md mx-auto">
+    <figure>
+      <img class="bg-slate-500 rounded-lg w-full h-48 object-cover" 
+        src="/src/cclgg.jpeg"
+        alt="ACTIVITIES" />
+    </figure>
+    <div class="card-body m-3">
+      <h2 class="font-semibold">COLLEGE ACTIVITIES</h2>
+      <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel reiciendis suscipit nulla ab, commodi animi eum culpa asperiores? Adipisci.</p>
+      <div class="card-actions justify-end">
+        <button class="btn btn-primary">See More</button>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<!-- footer -->
+<footer class="footer bg-neutral text-neutral-content p-4 md:p-10 bg-[#1A237E] text-white">
+  <div class="flex flex-col md:flex-row justify-around w-full gap-8">
+    <div class="font-bold bg-gradient-to-r from-green-500 via-orange-500 to-white bg-clip-text text-transparent text-center md:text-left">
+      शानुबाई नाईक महाविद्यालय,<br> ढाणकी S.N.M COLLAGE  कला | वाणिज्य | विज्ञान
+    </div>
+    
+    <div class="text-center md:text-left">
+      <h1 class="text-xl md:text-2xl font-semibold mb-2">Contact</h1>
+      <ul class="space-y-2">
+        <li><i class="fa-solid fa-location-dot fa-bounce pr-2"></i><a href="">Shanubai Naik Mahila <br>Mahavidyalaya Dhanki</a></li>
+        <li><a href=""><i class="fa-solid fa-phone fa-shake pr-2"></i>91+xxxxxxxxx</a></li>
+        <li><a href=""><i class="fa-solid fa-envelope fa-beat-fade pr-2"></i> Shanubai@gmail.comNaik</a></li>
+      </ul>
+    </div>
+    
+    <div class="text-center md:text-left">
+      <h1 class="text-xl md:text-2xl font-semibold mb-2">Quick Links</h1>
+      <ul class="space-y-2">
+        <li><a class="link link-hover">Home</a></li>
+        <li><a class="link link-hover">About Us</a></li>
+        <li><a class="link link-hover">Course</a></li>
+        <li><a class="link link-hover">Contact Us</a></li>
+      </ul>
+    </div>
+    
+    <div class="text-center md:text-left">
+      <h1 class="text-xl md:text-2xl font-semibold mb-2">Follow Us</h1>
+      <ul class="space-y-2">
+        <li><a href=""><i class="fa-brands fa-instagram fa-beat pr-2"></i>Instagram</a></li>
+        <li><a href=""><i class="fa-brands fa-facebook fa-flip pr-2"></i>Facebook</a></li>
+        <li><a href=""><i class="fa-brands fa-whatsapp fa-beat-fade pr-2"></i>Whatsapp</a></li>
+        <li><a href=""><i class="fa-brands fa-linkedin fa-fade pr-2"></i>LinkedIn</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

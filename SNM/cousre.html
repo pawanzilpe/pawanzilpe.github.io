@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+      <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+         <link rel="stylesheet" href="about.html">
+     <link rel="stylesheet" href="contact.html">
+     <link rel="stylesheet" href="course.html">
+     <link rel="stylesheet" href="index.html">
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="clgab.html">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-[#eaedf0] font-[Montserrat]">
+    <!-- Mobile Menu Button -->
+    <div class="lg:hidden bg-[#1A237E] p-4 flex justify-between items-center">
+        <div class="font-bold bg-gradient-to-r from-green-500 via-orange-500 to-white bg-clip-text text-transparent text-sm">
+            शानुबाई नाईक महाविद्यालय,<br> ढाणकी S.N.M COLLAGE
+        </div>
+        <button id="mobile-menu-btn" class="text-white text-2xl">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="bg-[#1A237E] text-[#fff] font-bold flex flex-col lg:flex-row justify-between items-center p-2 lg:pl-20 lg:pr-20 hidden lg:flex">
+        <div class="font-bold bg-gradient-to-r from-green-500 via-orange-500 to-white bg-clip-text text-transparent text-center lg:text-left mb-4 lg:mb-0">
+            शानुबाई नाईक महाविद्यालय,<br> ढाणकी S.N.M COLLAGE कला | वाणिज्य | विज्ञान
+        </div>
+        <div class="mb-4 lg:mb-0">
+            <ul class="flex flex-col md:flex-row gap-2 md:gap-10 text-center">
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md text-center"><a href="index.html" target="_self">Home</a></li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md text-center"><a href="about.html" target="_self">About Us</a></li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md text-center">
+              <a href="cousre.html" target="_self">Course</a></li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md text-center"><a href="contact.html" target="_self">Contact us</a></li></ul>
+        </div>
+        <div>
+            <button class="border p-1 rounded-md bg-white text-[#1A237E] hover:bg-[#1A237E] hover:text-white hover:border-2 text-sm lg:text-base">
+                Ask For Enquiries <i class="fa-solid fa-arrow-right fa-fade fa-lg"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="lg:hidden bg-[#1A237E] text-white hidden">
+        <ul class="flex flex-col gap-4 p-4 text-center">
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md">Home</li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md"><a href="clgab.html">About Us</a></li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md">Course</li>
+            <li class="hover:bg-[#fff] hover:text-[#1A237E] hover:p-1 rounded-md">Contact us</li>
+            <li class="mt-4">
+                <button class="border p-2 rounded-md bg-white text-[#1A237E] hover:bg-[#1A237E] hover:text-white hover:border-2 w-full">
+                    Ask For Enquiries <i class="fa-solid fa-arrow-right fa-fade fa-lg"></i>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <br class="hidden lg:block">
+    
+    <!-- College Department Section -->
+    <div class="bg-white w-[95%] lg:w-[90%] mx-auto my-8 lg:m-16 min-h-[60vh] lg:h-[80vh] p-4 lg:p-0 -mt-2 lg:-mt-5.5 rounded-lg lg:rounded-none">
+        <div>
+            <h1 class="text-2xl lg:text-3xl font-semibold flex justify-center pt-4 lg:pt-2 text-center">COLLEGE DEPARTMENT</h1>
+        </div>
+        
+        <!-- Faculty Buttons - Responsive Layout -->
+        <div class="flex flex-col sm:flex-row justify-center mt-6 lg:mt-10 gap-4 lg:gap-10 px-4">
+            <button class="bg-blue-500 p-3 lg:p-2 rounded-md text-white font-semibold text-sm lg:text-base w-full sm:w-auto">
+                Faculty of Arts
+            </button>
+            <button class="bg-blue-500 p-3 lg:p-2 rounded-md text-white font-semibold text-sm lg:text-base w-full sm:w-auto">
+                Faculty of Commerce
+            </button>
+            <button class="bg-blue-500 p-3 lg:p-2 rounded-md text-white font-semibold text-sm lg:text-base w-full sm:w-auto">
+                Faculty of Science
+            </button>
+        </div>
+
+        <!-- Course List Section - You can expand this as needed -->
+        <div class="mt-8 lg:mt-12 px-4 lg:px-8">
+            <!-- Placeholder for course content -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                <!-- Arts Courses -->
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-lg font-semibold text-blue-600 mb-3">Faculty of Arts</h3>
+                    <ul class="space-y-2 text-sm lg:text-base">
+                        <li>• Bachelor of Arts (B.A.)</li>
+                      
+                        <li>• Literature Studies</li>
+                        <li>• History & Philosophy</li>
+                    </ul>
+                </div>
+
+                <!-- Commerce Courses -->
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-lg font-semibold text-blue-600 mb-3">Faculty of Commerce</h3>
+                    <ul class="space-y-2 text-sm lg:text-base">
+                        <li>• Bachelor of Commerce (B.Com)</li>
+                       
+                        <li>• Business Administration</li>
+                        <li>• Accounting & Finance</li>
+                    </ul>
+                </div>
+
+                <!-- Science Courses -->
+                <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                    <h3 class="text-lg font-semibold text-blue-600 mb-3">Faculty of Science</h3>
+                    <ul class="space-y-2 text-sm lg:text-base">
+                        <li>• Bachelor of Science (B.Sc)</li>
+                       
+                        <li>• Physics & Chemistry</li>
+                        <li>• Mathematics & Biology</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-neutral text-neutral-content p-6 lg:p-10 bg-[#1A237E] text-white">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
+            <div class="font-bold bg-gradient-to-r from-green-500 via-orange-500 to-white bg-clip-text text-transparent text-center lg:text-left">
+                शानुबाई नाईक महाविद्यालय,<br> ढाणकी S.N.M COLLAGE कला | वाणिज्य | विज्ञान
+            </div>
+            
+            <div>
+                <h1 class="text-xl lg:text-2xl font-semibold mb-2">Contact</h1>
+                <ul class="space-y-2">
+                    <li><i class="fa-solid fa-location-dot fa-bounce pr-2"></i><a href="">Shanubai Naik Mahila <br>Mahavidyalaya Dhanki</a></li>
+                    <li><a href=""><i class="fa-solid fa-phone fa-shake pr-2"></i>91+xxxxxxxxx</a></li>
+                    <li><a href=""><i class="fa-solid fa-envelope fa-beat-fade pr-2"></i> Shanubai@gmail.comNaik</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h1 class="text-xl lg:text-2xl font-semibold mb-2">Quick Links</h1>
+                <ul class="space-y-2">
+                    <li><a class="link link-hover">Home</a></li>
+                    <li><a class="link link-hover">About Us</a></li>
+                    <li><a class="link link-hover">Course</a></li>
+                    <li><a class="link link-hover">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h1 class="text-xl lg:text-2xl font-semibold mb-2">Follow Us</h1>
+                <ul class="space-y-2">
+                    <li><a href=""><i class="fa-brands fa-instagram fa-beat pr-2"></i>Instagram</a></li>
+                    <li><a href=""><i class="fa-brands fa-facebook fa-flip pr-2"></i>Facebook</a></li>
+                    <li><a href=""><i class="fa-brands fa-whatsapp fa-beat-fade pr-2"></i>Whatsapp</a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin fa-fade pr-2"></i>LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+            const icon = mobileMenuBtn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+
+        // Faculty button interactions (you can expand this)
+        const facultyButtons = document.querySelectorAll('button[class*="bg-blue-500"]');
+        facultyButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                facultyButtons.forEach(btn => btn.classList.remove('bg-blue-700'));
+                // Add active class to clicked button
+                this.classList.add('bg-blue-700');
+            });
+        });
+    </script>
+</body>
+</html>
